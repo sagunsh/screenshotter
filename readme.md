@@ -2,6 +2,18 @@
 
 A simple script written in Go for generating screenshot from URL using [Playwright](https://github.com/playwright-community/playwright-go) library.
 
+## Playwright Setup
+
+Installing playwright
+
+    go get -u github.com/playwright-community/playwright-go
+
+
+Installing browsers and OS dependencies
+
+    go run github.com/playwright-community/playwright-go/cmd/playwright@latest install --with-deps
+
+
 ## Arguments
 
 * url: The URL to generate screenshot
